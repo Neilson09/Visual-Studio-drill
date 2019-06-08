@@ -1,0 +1,36 @@
+﻿body {
+    animation: color-change;
+    animation: color-change 15s linear infinite alternate both;
+}
+
+@keyframes color-change {
+    0% {
+        background: rgba(38, 24, 89, 1);
+    }
+
+    20% {
+        background: rgba(9, 54, 114, 1);
+    }
+
+    40% {
+        background: rgba(41, 80, 114, 1);
+    }
+
+    60% {
+        background: rgba(64, 53, 140, 1);
+    }
+
+    80% {
+        background: rgba(92, 137, 165, 1);
+    }
+
+    100% {
+        background: rgba(106, 151, 242, 1);
+    }
+}
+
+.container {
+    display: block;
+    margin: 2% auto auto auto;
+    width: 85%;
+}
